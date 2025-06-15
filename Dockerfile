@@ -1,5 +1,6 @@
 FROM python:3.9-alpine
 LABEL AUTHOR="Karim Ayari"
+
 WORKDIR /app
 COPY index.html .
 EXPOSE 8000
